@@ -1,0 +1,144 @@
+{
+  "active_manifest": "urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e",
+  "manifests": {
+    "urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e": {
+      "claim_generator": "c2pa-rs/0.58.0",
+      "claim_generator_info": [
+        {
+          "name": "c2pa-rs",
+          "version": "0.58.0",
+          "org.cai.c2pa_rs": "0.58.0"
+        }
+      ],
+      "title": "Flicker from Within: Beneath the Canopy",
+      "format": "image/png",
+      "instance_id": "xmp:iid:d8880fe3-77b8-43ab-b18a-d700d80e98cd",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "usageInfo": "For academic use in a digital curation exhibit on cultural computing",
+            "dateCreated": "2025-08-02",
+            "copyrightYear": "2025",
+            "author": [
+              {
+                "name": "Lindsey E. Hartman",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0009-0006-8668-7887"
+              }
+            ],
+            "description": "From the imagined perspective of an electrical being on the circuit board, this image looks skyward at two radiant trees rooted in the board's surface. Their luminous trunks rise into a glowing golden canopy, where warm ambient light filters through ethereal particles. The trees appear sacred, alive with memory and breath, merging the language of code with the stillness of reverent awe. AI-generated with prompt: 'A digital photograph captures the upward gaze from the surface of a circuit board, revealing two glowing trees rooted in its copper pathways. Their trunks stretch upward into a softly glowing canopy of gold and amber, where tiny light particles drift through the ambient air. No figures are visible—just the trees seen from below, their presence luminous and sacred in this surreal, memory-infused landscape.'",
+            "copyrightHolder": {
+              "name": "Lindsey E. Hartman",
+              "@type": "Person"
+            },
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "keywords": "cultural computing, glowing trees, photorealistic perspective, circuit board, golden canopy, flicker from within, ambient light, rooted memory",
+            "creator": [
+              {
+                "url": "https://openai.com",
+                "name": "OpenAI",
+                "@type": "Organization"
+              }
+            ]
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "ai.generation.metadata",
+          "data": {
+            "model": "DALL·E 3",
+            "prompt": "A digital photograph captures the upward gaze from the surface of a circuit board, revealing two glowing trees rooted in its copper pathways. Their trunks stretch upward into a softly glowing canopy of gold and amber, where tiny light particles drift through the ambient air. No figures are visible—just the trees seen from below, their presence luminous and sacred in this surreal, memory-infused landscape.",
+            "parameters": {
+              "style": "photorealistic, upward perspective, golden canopy, ethereal light, digital-organic fusion, glowing ambient particles",
+              "resolution": {
+                "width": 1024,
+                "height": 1536
+              }
+            },
+            "model_version": "DALL·E 3 (2025-08)",
+            "software_agent": "ChatGPT (DALL·E 3)",
+            "generation_date": "2025-08-02T00:18:07Z",
+            "training_restrictions": {
+              "no_mining": true,
+              "no_training": true,
+              "constraints_text": "This AI-generated content is not authorized for use in training machine learning models or data mining operations without explicit permission."
+            }
+          }
+        },
+        {
+          "label": "academic.metadata",
+          "data": {
+            "curator": "Lindsey E. Hartman",
+            "project": "Flicker and Form Digital Collection",
+            "academic_use": "Digital curation exhibit on cultural computing",
+            "template_source": "Manus (https://manus.io)",
+            "collection_theme": "Hybrid cultural computing and organic-digital fusion"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "C2PA Test Signing Cert",
+        "cert_serial_number": "640229841392226413189608867977836244731148734950"
+      },
+      "label": "urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/ai.generation.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/ai.generation.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/academic.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/academic.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:3505afdc-187c-4362-ab76-7da3ad0cb83e/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}

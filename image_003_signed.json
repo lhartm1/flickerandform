@@ -1,0 +1,144 @@
+{
+  "active_manifest": "urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576",
+  "manifests": {
+    "urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576": {
+      "claim_generator": "c2pa-rs/0.58.0",
+      "claim_generator_info": [
+        {
+          "name": "c2pa-rs",
+          "version": "0.58.0",
+          "org.cai.c2pa_rs": "0.58.0"
+        }
+      ],
+      "title": "Flicker and Form: Culture Blooming in Code",
+      "format": "image/png",
+      "instance_id": "xmp:iid:a9303f5b-e77c-4c25-a743-82ca92c07d41",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "author": [
+              {
+                "name": "Lindsey E. Hartman",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0009-0006-8668-7887"
+              }
+            ],
+            "dateCreated": "2025-08-01",
+            "keywords": "cultural computing, glowing tree, circuit board, photorealistic, ethereal light, organic-digital fusion, code as culture",
+            "copyrightYear": "2025",
+            "copyrightHolder": {
+              "name": "Lindsey E. Hartman",
+              "@type": "Person"
+            },
+            "usageInfo": "For academic use in a digital curation exhibit on cultural computing",
+            "description": "A photorealistic tree of light emerges from a dark circuit board, its delicate branches radiating golden warmth across the etched traces of silicon and metal. Floating light particles shimmer around it, symbolizing the ephemeral growth of culture through code. The warm tree contrasts with the rigid inorganic base, blurring boundaries between organic memory and machine logic. AI-generated with prompt: 'A glowing tree with delicate, translucent branches and leaves grows from the center of a printed circuit board (PCB), emitting a golden light that highlights its surroundings. The tree's warmth contrasts with the cool, dark blue-green PCB, where intricate pathways and metal components are bathed in its radiance, complemented by floating golden particles that add a mystical touch to the scene.'",
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "creator": [
+              {
+                "url": "https://openai.com",
+                "name": "OpenAI",
+                "@type": "Organization"
+              }
+            ]
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "ai.generation.metadata",
+          "data": {
+            "model": "DALL·E 3",
+            "prompt": "A glowing tree with delicate, translucent branches and leaves grows from the center of a printed circuit board (PCB), emitting a golden light that highlights its surroundings. The tree's warmth contrasts with the cool, dark blue-green PCB, where intricate pathways and metal components are bathed in its radiance, complemented by floating golden particles that add a mystical touch to the scene.",
+            "parameters": {
+              "style": "photorealistic, ethereal glow, warm ambient light, symbolic tree, digital-organic fusion",
+              "resolution": {
+                "width": 1024,
+                "height": 1536
+              }
+            },
+            "model_version": "DALL·E 3 (2025-08)",
+            "software_agent": "ChatGPT (DALL·E 3)",
+            "generation_date": "2025-08-01T16:50:11Z",
+            "training_restrictions": {
+              "no_mining": true,
+              "no_training": true,
+              "constraints_text": "This AI-generated content is not authorized for use in training machine learning models or data mining operations without explicit permission."
+            }
+          }
+        },
+        {
+          "label": "academic.metadata",
+          "data": {
+            "curator": "Lindsey E. Hartman",
+            "project": "Flicker and Form Digital Collection",
+            "academic_use": "Digital curation exhibit on cultural computing",
+            "template_source": "Manus (https://manus.io)",
+            "collection_theme": "Hybrid cultural computing and organic-digital fusion"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "C2PA Test Signing Cert",
+        "cert_serial_number": "640229841392226413189608867977836244731148734950"
+      },
+      "label": "urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/ai.generation.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/ai.generation.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/academic.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/academic.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:e7ea3715-1bd8-459e-abc4-2425f4c07576/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}

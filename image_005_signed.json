@@ -1,0 +1,144 @@
+{
+  "active_manifest": "urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d",
+  "manifests": {
+    "urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d": {
+      "claim_generator": "c2pa-rs/0.58.0",
+      "claim_generator_info": [
+        {
+          "name": "c2pa-rs",
+          "version": "0.58.0",
+          "org.cai.c2pa_rs": "0.58.0"
+        }
+      ],
+      "title": "Flicker from Within: Hybrid Music Interface",
+      "format": "image/png",
+      "instance_id": "xmp:iid:d8176f50-22c1-4466-b71d-0619f1405795",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "creator": [
+              {
+                "url": "https://openai.com",
+                "name": "OpenAI",
+                "@type": "Organization"
+              }
+            ],
+            "author": [
+              {
+                "name": "Lindsey E. Hartman",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0009-0006-8668-7887"
+              }
+            ],
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "description": "A hybrid music interface blending a vintage turntable and keyboard rests on a wooden table, overgrown with glowing golden tree roots. Soft particles drift through the air as warm light radiates from the organic tendrils, illuminating the analog components in an ethereal glow. This imagined device embodies cultural computing—where sound, memory, and technology converge in a flickering act of preservation. AI-generated with prompt: 'A digital artwork showcases a vintage turntable-keyboard hybrid, entangled with glowing, gnarled tree roots emitting a soft golden light. Resting on a wooden surface, the device's details—sharp grooves on the vinyl, worn keys, and tarnished metal panels—are illuminated by the roots, against a dark, particle-filled backdrop that emphasizes the warm, moody atmosphere of the piece.'",
+            "keywords": "cultural computing, hybrid music interface, turntable, keyboard, ethereal light, photorealistic, glowing roots, analog-digital fusion, warm flicker",
+            "copyrightHolder": {
+              "name": "Lindsey E. Hartman",
+              "@type": "Person"
+            },
+            "dateCreated": "2025-08-01",
+            "copyrightYear": "2025",
+            "usageInfo": "For academic use in a digital curation exhibit on cultural computing"
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "ai.generation.metadata",
+          "data": {
+            "model": "DALL·E 3",
+            "prompt": "A digital artwork showcases a vintage turntable-keyboard hybrid, entangled with glowing, gnarled tree roots emitting a soft golden light. Resting on a wooden surface, the device's details—sharp grooves on the vinyl, worn keys, and tarnished metal panels—are illuminated by the roots, against a dark, particle-filled backdrop that emphasizes the warm, moody atmosphere of the piece.",
+            "parameters": {
+              "style": "photorealistic, warm ambient lighting, glowing organic-mechanical fusion, musical technology, ethereal particles",
+              "resolution": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "model_version": "DALL·E 3 (2025-08)",
+            "software_agent": "ChatGPT (DALL·E 3)",
+            "generation_date": "2025-08-01T23:50:30Z",
+            "training_restrictions": {
+              "no_mining": true,
+              "no_training": true,
+              "constraints_text": "This AI-generated content is not authorized for use in training machine learning models or data mining operations without explicit permission."
+            }
+          }
+        },
+        {
+          "label": "academic.metadata",
+          "data": {
+            "curator": "Lindsey E. Hartman",
+            "project": "Flicker and Form Digital Collection",
+            "academic_use": "Digital curation exhibit on cultural computing",
+            "template_source": "Manus (https://manus.io)",
+            "collection_theme": "Hybrid cultural computing and organic-digital fusion"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "C2PA Test Signing Cert",
+        "cert_serial_number": "640229841392226413189608867977836244731148734950"
+      },
+      "label": "urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/ai.generation.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/ai.generation.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/academic.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/academic.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:7423cc09-cd76-4d92-b989-279ab56dcb1d/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}

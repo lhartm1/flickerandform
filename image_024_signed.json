@@ -1,0 +1,144 @@
+{
+  "active_manifest": "urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd",
+  "manifests": {
+    "urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd": {
+      "claim_generator": "c2pa-rs/0.58.0",
+      "claim_generator_info": [
+        {
+          "name": "c2pa-rs",
+          "version": "0.58.0",
+          "org.cai.c2pa_rs": "0.58.0"
+        }
+      ],
+      "title": "Flicker from Within: Rooted Bloom",
+      "format": "image/png",
+      "instance_id": "xmp:iid:bb45c2a3-91a5-4213-b557-42b7c8aefffd",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "usageInfo": "For academic use in a digital curation exhibit on cultural computing",
+            "dateCreated": "2025-08-02",
+            "author": [
+              {
+                "name": "Lindsey E. Hartman",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0009-0006-8668-7887"
+              }
+            ],
+            "copyrightHolder": {
+              "name": "Lindsey E. Hartman",
+              "@type": "Person"
+            },
+            "keywords": "cultural computing, glowing trees, circuit roots, copper buds, photorealism, digital-organic growth, ambient light, hybrid design",
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "creator": [
+              {
+                "url": "https://openai.com",
+                "name": "OpenAI",
+                "@type": "Organization"
+              }
+            ],
+            "description": "This photorealistic image shows glowing trees of light growing from a circuit board, each uniquely shaped and rooted in copper-rich traces. Hints of warm copper ascend the trunks, culminating in gentle blooms. The blend of cool light, structured design, and emerging warmth conveys the evolution of cultural computing through hybrid organic-digital expression. AI-generated with prompt: 'A high-resolution digital photograph captures glowing trees of various heights rooted in a printed circuit board. The trees emit blue and white ethereal light, while delicate copper hues emerge from their roots and begin to trace upward toward warm copper-tinted buds. The scene maintains photorealistic clarity, blending precise circuitry with evolving organic-like growth. The atmosphere is softly ambient, suggesting a living technological ecosystem grounded in memory and cultural computation.'",
+            "copyrightYear": "2025"
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "ai.generation.metadata",
+          "data": {
+            "model": "DALL·E 3",
+            "prompt": "A high-resolution digital photograph captures glowing trees of various heights rooted in a printed circuit board. The trees emit blue and white ethereal light, while delicate copper hues emerge from their roots and begin to trace upward toward warm copper-tinted buds. The scene maintains photorealistic clarity, blending precise circuitry with evolving organic-like growth. The atmosphere is softly ambient, suggesting a living technological ecosystem grounded in memory and cultural computation.",
+            "parameters": {
+              "style": "photorealistic, glowing circuit-rooted trees, ambient blue and white light, copper and gold accents, hybrid digital-organic aesthetic",
+              "resolution": {
+                "width": 1024,
+                "height": 1536
+              }
+            },
+            "model_version": "DALL·E 3 (2025-08)",
+            "software_agent": "ChatGPT (DALL·E 3)",
+            "generation_date": "2025-08-02T02:08:02Z",
+            "training_restrictions": {
+              "no_mining": true,
+              "no_training": true,
+              "constraints_text": "This AI-generated content is not authorized for use in training machine learning models or data mining operations without explicit permission."
+            }
+          }
+        },
+        {
+          "label": "academic.metadata",
+          "data": {
+            "curator": "Lindsey E. Hartman",
+            "project": "Flicker and Form Digital Collection",
+            "academic_use": "Digital curation exhibit on cultural computing",
+            "template_source": "Manus (https://manus.io)",
+            "collection_theme": "Hybrid cultural computing and organic-digital fusion"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "C2PA Test Signing Cert",
+        "cert_serial_number": "640229841392226413189608867977836244731148734950"
+      },
+      "label": "urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/ai.generation.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/ai.generation.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/academic.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/academic.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:6ad8b799-535c-480f-86ff-95b6d79ef3fd/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}

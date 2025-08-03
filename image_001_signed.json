@@ -1,0 +1,144 @@
+{
+  "active_manifest": "urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb",
+  "manifests": {
+    "urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb": {
+      "claim_generator": "c2pa-rs/0.58.0",
+      "claim_generator_info": [
+        {
+          "name": "c2pa-rs",
+          "version": "0.58.0",
+          "org.cai.c2pa_rs": "0.58.0"
+        }
+      ],
+      "title": "Flicker and Form: Roots of Cultural Computing",
+      "format": "image/png",
+      "instance_id": "xmp:iid:8f6456bd-73d7-4435-a176-73672c075c2a",
+      "thumbnail": {
+        "format": "image/jpeg",
+        "identifier": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+      },
+      "ingredients": [],
+      "assertions": [
+        {
+          "label": "stds.schema-org.CreativeWork",
+          "data": {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "keywords": "cultural computing, hybrid object, circuits, roots, warm light, ethereal, digital archive, organic-inorganic fusion",
+            "author": [
+              {
+                "name": "Lindsey E. Hartman",
+                "@type": "Person",
+                "identifier": "https://orcid.org/0009-0006-8668-7887"
+              }
+            ],
+            "dateCreated": "2025-08-01",
+            "description": "An illuminated printed circuit board intertwined with glowing organic roots, representing the metaphorical growth of cultural memory and computing from technological substrates. AI-generated with prompt: 'A glowing printed circuit board (PCB) intertwined with organic tree roots, representing the roots of cultural computing growing from circuitry. The aesthetic blends warm, ambient lighting with ethereal atmosphere and a fusion of organic and inorganic materials.'",
+            "copyrightYear": "2025",
+            "creator": [
+              {
+                "url": "https://openai.com",
+                "name": "OpenAI",
+                "@type": "Organization"
+              }
+            ],
+            "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "usageInfo": "For academic use in a digital curation exhibit on cultural computing",
+            "copyrightHolder": {
+              "name": "Lindsey E. Hartman",
+              "@type": "Person"
+            }
+          },
+          "kind": "Json"
+        },
+        {
+          "label": "ai.generation.metadata",
+          "data": {
+            "model": "DALL·E 3",
+            "prompt": "A glowing printed circuit board (PCB) intertwined with organic tree roots, representing the roots of cultural computing growing from circuitry. The aesthetic blends warm, ambient lighting with ethereal atmosphere and a fusion of organic and inorganic materials.",
+            "parameters": {
+              "style": "ethereal, glowing, warm color palette, soft particle lighting, bio-digital hybrid",
+              "resolution": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "model_version": "DALL·E 3 (2025-08)",
+            "software_agent": "ChatGPT (DALL·E 3)",
+            "generation_date": "2025-08-01T10:35:00Z",
+            "training_restrictions": {
+              "no_mining": true,
+              "no_training": true,
+              "constraints_text": "This AI-generated content is not authorized for use in training machine learning models or data mining operations without explicit permission."
+            }
+          }
+        },
+        {
+          "label": "academic.metadata",
+          "data": {
+            "curator": "Lindsey E. Hartman",
+            "project": "Flicker and Form Digital Collection",
+            "academic_use": "Digital curation exhibit on cultural computing",
+            "template_source": "Manus (https://manus.io)",
+            "collection_theme": "Hybrid cultural computing and organic-digital fusion"
+          }
+        }
+      ],
+      "signature_info": {
+        "alg": "Es256",
+        "issuer": "C2PA Test Signing Cert",
+        "cert_serial_number": "640229841392226413189608867977836244731148734950"
+      },
+      "label": "urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb"
+    }
+  },
+  "validation_results": {
+    "activeManifest": {
+      "success": [
+        {
+          "code": "claimSignature.insideValidity",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "claimSignature.validated",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.signature",
+          "explanation": "claim signature valid"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/c2pa.thumbnail.claim.jpeg",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.thumbnail.claim.jpeg"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/stds.schema-org.CreativeWork",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/stds.schema-org.CreativeWork"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/ai.generation.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/ai.generation.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/academic.metadata",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/academic.metadata"
+        },
+        {
+          "code": "assertion.hashedURI.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/c2pa.hash.data",
+          "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+        },
+        {
+          "code": "assertion.dataHash.match",
+          "url": "self#jumbf=/c2pa/urn:uuid:cd810d6e-9db9-4cc2-a251-0fa82539cfbb/c2pa.assertions/c2pa.hash.data",
+          "explanation": "data hash valid"
+        }
+      ],
+      "informational": [],
+      "failure": []
+    }
+  },
+  "validation_state": "Valid"
+}
