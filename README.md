@@ -21,7 +21,7 @@ This GitHub repository contains the **JSON metadata files** that correspond to e
   - Training/mining restrictions
   - Technical provenance data
 
-## 🔍 Metadata Structure
+## Metadata Structure
 
 Each JSON file follows C2PA 2.2 standards with three main assertion types:
 
