@@ -2,16 +2,16 @@
 
 This repository contains the C2PA (Coalition for Content Provenance and Authenticity) metadata files for the **Flicker and Form** digital collection.
 
-## 🔗 Main Project
+## Main Project
 **View the complete digital collection:** [https://flickerandform.omeka.net](https://flickerandform.omeka.net)
 
-## 📋 About This Repository
+## About This Repository
 
 **Flicker and Form** is a digital curation project exploring how AI-generated images can serve as vessels of cultural memory. Using OpenAI's DALL-E 3, each image fuses circuitry with organic motifs—trees, roots, light—to reimagine digital space as a living archive.
 
 This GitHub repository contains the **JSON metadata files** that correspond to each image in the collection, providing transparent documentation of the AI generation process and academic provenance.
 
-## 📁 Repository Contents
+## Repository Contents
 
 - **25 JSON files** (`image_001_signed.json` through `image_025_signed.json`)
 - Each file contains C2PA-compliant metadata including:
@@ -29,28 +29,28 @@ Each JSON file follows C2PA 2.2 standards with three main assertion types:
 2. **AI Generation Metadata** - Model details, prompts, and generation parameters  
 3. **Academic Metadata** - Curatorial context and project information
 
-## 🎨 Collection Themes
+## Collection Themes
 
 The collection explores three visual phases:
 - **Golden Organic Phase** (001-013): Warm trees and dancing figures growing from circuits
 - **Blue Signal Phase** (014-021): Modern currents and digital flows
 - **Hybrid Synthesis** (022-025): Copper-infused evolution and refinement
 
-## 👩‍🎓 Academic Context
+## Academic Context
 
 **Curator:** Lindsey E. Hartman  
 **ORCID:** [0009-0006-8668-7887](https://orcid.org/0009-0006-8668-7887)  
 **Institution:** Digital Curation Project; Louisiana State University, School for Art + Design
 **License:** [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 These metadata files are designed for embedding into image files using C2PA tools. The JSON structure is compatible with:
 - c2patool v0.19.1+
 - Adobe Content Credentials
 - CAI (Content Authenticity Initiative) standards
 
-## 📖 Usage
+## Usage
 
 These files serve as:
 - **Transparency documentation** for AI-generated art
@@ -58,7 +58,7 @@ These files serve as:
 - **Technical metadata** for content authenticity verification
 - **Curatorial context** for digital collection management
 
-## 🔗 Related Links
+## Related Links
 
 - **Main Collection:** [https://flickerandform.omeka.net](https://flickerandform.omeka.net)
 - **C2PA Standards:** [https://c2pa.org](https://c2pa.org)
