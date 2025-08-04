@@ -40,7 +40,7 @@ The collection explores three visual phases:
 
 **Curator:** Lindsey E. Hartman  
 **ORCID:** [0009-0006-8668-7887](https://orcid.org/0009-0006-8668-7887)  
-**Institution:** Digital Curation Project; Louisiana State University, College of Art + Design
+**Institution:** Digital Curation Project; Louisiana State University, College of Art + Design.
 **License:** [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Technical Implementation
